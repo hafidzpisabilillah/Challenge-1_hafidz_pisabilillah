@@ -143,6 +143,18 @@ main {
   top: 0vh;
   text-align: center;
 }
+.owl-stage {
+  height: 50vh;
+  overflow: hidden !important;
+  width: 4000px !important;
+}
+.owl-stage .owl-item {
+  margin: 0 6em;
+}
+.owl-nav {
+  position: relative;
+  top: -1em;
+}
 
 .testimonial h1 {
   font-weight: bold;
