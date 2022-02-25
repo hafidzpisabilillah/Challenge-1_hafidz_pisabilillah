@@ -1,0 +1,99 @@
+@media screen and (max-width: 768px) {
+  .nav-nav {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .nav-nav .btn {
+    position: relative;
+    left: 3%;
+  }
+  .nav-nav .collapse {
+    position: relative;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    height: 0;
+    align-items: center;
+    left: -90%;
+  }
+  .nav-nav .collapse.active {
+    display: flex;
+    height: 100%;
+    left: 0%;
+  }
+  .nav-nav .collapse.active .navbar-nav {
+    margin: auto;
+    top: 60%;
+    background: gray;
+    padding: 4rem;
+    z-index: 9999;
+    left: 34%;
+    position: absolute;
+  }
+  /* text */
+  .container .text {
+    flex-direction: column;
+  }
+  .container .text .text-kiri {
+    width: 100%;
+    z-index: 2;
+  }
+  .container .text .gambar-kanan {
+    position: absolute;
+    opacity: 0.1;
+    left: -46%;
+    z-index: 1;
+  }
+  /* service */
+  .container-service {
+    height: 100%;
+  }
+  main .whyus {
+    position: relative;
+    top: 10rem;
+  }
+  .whyus .row {
+    margin: 1em 0;
+  }
+  .service {
+    flex-direction: column;
+  }
+  .service .image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .service .text-kanan {
+    position: relative;
+    width: 100%;
+  }
+  /* testimonial */
+  main .testi {
+    position: relative;
+    top: 8rem;
+  }
+  /* Banner */
+  .container-banner {
+    position: relative;
+    top: 5em;
+  }
+  /* FAQ */
+  main .container-faq {
+    position: relative;
+    top: 3em;
+  }
+  /* Footer */
+  footer {
+    position: relative;
+    top: 5em;
+  }
+  footer .footer {
+    flex-wrap: wrap;
+    border-top: 1px solid gray;
+  }
+  .footer .footer-all {
+    flex: 0 0 35%;
+    margin: 2em;
+  }
+}

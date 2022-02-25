@@ -1,0 +1,260 @@
+* {
+  font-family: Helvetica;
+}
+header {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: #f1f3ff;
+}
+nav .container {
+  width: 100%;
+  height: 36px;
+}
+
+.rowwoy {
+  position: relative;
+  margin-right: 0 !important;
+}
+.logo-navbar {
+  width: 100px;
+  height: 34px;
+  background: #0d28a6 !important;
+}
+.collapse ul li {
+  margin: 0 15px;
+}
+
+.headerpadding {
+  padding-top: 100px;
+  padding-left: 20px !important;
+}
+
+.bingkai {
+  position: relative;
+  height: 100%;
+  bottom: -2.5em;
+}
+
+img.gambar {
+  width: 101.8%;
+  height: 407px;
+  position: absolute;
+}
+
+.headerpadding h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+}
+
+/* main */
+
+/* our service */
+main {
+  position: relative;
+  width: 100%;
+}
+
+.container-service {
+  position: relative;
+  top: 5rem;
+  width: 65%;
+  height: 90vh;
+  margin: auto;
+}
+
+.container-service .service {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.service .image {
+  width: 55%;
+}
+
+.service .image img {
+  width: 374px;
+  height: 355px;
+  margin-right: 10%;
+}
+
+.service .text-kanan {
+  width: 50%;
+}
+
+.service .text-kanan li {
+  list-style: none;
+}
+
+.service .text-kanan li img {
+  width: 24px;
+  height: 24px;
+  margin: 0.5em 0.5em 0.5em 0;
+}
+
+.service .text-kanan h1 {
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.service .text-kanan p {
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* Why Us */
+
+.container .why-us {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+}
+
+.container .why-us h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/* card */
+
+.row .col-sm-3 .card {
+  border-radius: 5%;
+  border: 1px solid gray;
+}
+
+.row .col-sm-3 .card .card-body img {
+  margin: 0 0 1rem 0;
+}
+
+/* Testimonial */
+
+.testimonial {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+  top: 0vh;
+  text-align: center;
+}
+
+.testimonial h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 12vh;
+}
+
+.owl-carousel .item {
+  background-color: #f1f3ff;
+  border: 1px solid gray;
+  border-radius: 10px !important;
+  width: 619px;
+  height: 270px;
+}
+
+.item .card-body p {
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.item .card-body .image {
+  width: 80px;
+  height: 80px;
+}
+
+/* banner */
+
+.container-banner {
+  background-color: #0d28a6;
+  border-radius: 8px;
+  margin: 136px;
+  height: 326px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
+}
+
+.hero-text p {
+  width: 50%;
+  margin: 16px auto 52px;
+}
+
+/* FAQ */
+
+.container-faq {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 1rem 0 5rem 0;
+  display: flex;
+}
+
+.container-faq .box-kiri {
+  width: 40%;
+  height: 100%;
+  margin: 1em;
+}
+
+.container-faq .box-kiri h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.container-faq .box-kanan {
+  width: 60%;
+  height: 100%;
+}
+
+.container-faq .box-kanan .accordion-item {
+  border: 1px solid gray !important;
+  border-radius: bold 10px !important;
+  margin: 1em 0;
+}
+
+/* footer */
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+}
+
+footer .container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-box1 {
+  width: 30%;
+  height: 100%;
+}
+
+.footer-box2 {
+  width: 20%;
+  height: 100%;
+}
+
+.footer-box3 {
+  width: 25%;
+  height: 100%;
+}
+
+.footer-box4 {
+  width: 25%;
+  height: 100%;
+}
